@@ -2,6 +2,8 @@
 var myVar;
 //////////////////////////////
 
+
+
 //Functions for the loader
 function loading() {
   $("#loader").delay(1000);

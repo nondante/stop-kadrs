@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Kanit:700');
 @import url('https://fonts.googleapis.com/css?family=Sacramento');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
 /*******************/
 /* General Styles */
@@ -254,8 +255,8 @@ body{
 
 .gallery-h1{
   line-height: 0.95em;
-  font-size: 4em;
-  font-family: 'Kanit', sans-serif;
+  font-size: 3em;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .gallery-h1 span {
@@ -807,4 +808,28 @@ body{
 
 .arrowed1{
   margin-left: 4em;
+}
+
+
+
+/*******************/
+/* Aktuali*/
+/*******************/
+
+
+#aktuali-col img{
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 1em;
+
+
+
+}
+
+#aktuali-col{
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
 }
