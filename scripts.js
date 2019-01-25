@@ -16,6 +16,56 @@ function showPage() {
 }
 //////////////////////////////
 
+
+//////////////////////////////
+//gallery
+
+$("#slider2").hide();
+
+$(".gallery-box:nth-child(1)").on("mouseover",function(){
+  $("#slider1").hide();
+  $("#slider2").show();
+});
+
+
+$(".gallery-box:nth-child(1)").on("mouseleave",function(){
+  $("#slider1").show();
+  $("#slider2").hide();
+});
+
+$(".gallery-box:nth-child(2)").on("mouseover",function(){
+  $("#slider1").hide();
+  $("#slider2").show();
+});
+
+
+$(".gallery-box:nth-child(2)").on("mouseleave",function(){
+  $("#slider1").show();
+  $("#slider2").hide();
+});
+
+$(".gallery-box:nth-child(3)").on("mouseover",function(){
+  $("#slider1").hide();
+  $("#slider2").show();
+});
+
+
+$(".gallery-box:nth-child(3)").on("mouseleave",function(){
+  $("#slider1").show();
+  $("#slider2").hide();
+});
+
+$(".gallery-box:nth-child(4)").on("mouseover",function(){
+  $("#slider1").hide();
+  $("#slider2").show();
+});
+
+
+$(".gallery-box:nth-child(4)").on("mouseleave",function(){
+  $("#slider1").show();
+  $("#slider2").hide();
+});
+
 //////////////////////////////
 //Email
 

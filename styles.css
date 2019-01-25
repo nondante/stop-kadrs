@@ -263,6 +263,43 @@ body{
   display: block;
 }
 
+.gallery-box {
+  color: white;
+  border: 5px solid red;
+  transition: all 2000;
+}
+
+.gallery-box:hover{
+  border: none;
+}
+
+.gallery-box:nth-child(1){
+  color: #FACB09;
+  border-color: #FACB09;
+}
+
+.gallery-box:nth-child(2){
+  color: #fff;
+  border-color: #fff;
+}
+
+.gallery-box:nth-child(3){
+  color: #FACB09;
+  border-color: #FACB09;
+}
+
+.gallery-box:nth-child(4){
+  color: #4790B0;
+  border-color: #4790B0;
+}
+
+#slider2 {
+  display: inline-block;
+  float: left;
+  height: 500px;
+  width: 100%;
+}
+
 
 /*******************/
 /* Slider */
