@@ -265,8 +265,9 @@ body{
 
 .gallery-box {
   color: white;
-  border: 5px solid red;
+  border-bottom: 5px solid red;
   transition: all 2000;
+  
 }
 
 .gallery-box:hover{
